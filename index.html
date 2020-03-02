@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>LOL</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+          <em>Enable Dark Mode!</em>
+    </nav>
+  </div>
+
+  <!-- content -->
+
+  <div class="jumbotron konten flex-column bd-highlight">
+    <img src="profile.png" class="profile rounded-circle" alt="foto-profile">
+    <div class="mt-4 p-2 bd-highlight text-center status">Mahasiswa | UI Designer | Web Developer</div>
+    <div class="link-portfolio">
+      <a class="tombol mx-1" href="https://github.com/bgkandar"><img class="gambar" src="github.svg"></a>
+      <a class="tombol mx-1" href="https://www.linkedin.com/in/bangkandar/"><img src="linkedin.svg"></a>
+      <a class="tombol mx-1" href="https://twitter.com/bngkndr"><img src="twitter.svg"></a>
+      <a class="tombol mx-1" href="https://instagram.com/bangkandar"><img src="instagram.svg"></a>
+      <a class="tombol mx-1" href="https://www.facebook.com/bngkndr"><img src="facebook.svg"></a>
+      <a class="tombol mx-1" href="https://dribbble.com/bgkandar"><img src="dribbble.svg"></a>
+      <a class="tombol mx-1" href="https://www.behance.net/bangkandar"><img src="behance.svg"></a>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container d-flex justify-content-center align-content-center">
+    <div class="col-sm-7">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Quote</h5>
+          <blockquote class="blockquote mb-0">
+            <p>Barangsiapa tidak mau merasakan pahitnya belajar, ia akan merasakan hinanya <br> kebodohan sepanjang hidupnya.
+            </p>
+            <p class="blockquote-footer">Imam Syafi'i rahimahullah</p>
+          </blockquote>
+          <div class="text-center mt-3">
+            <div id="jam"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+
+  <script type="text/javascript">
+    // 1 detik = 1000
+    window.setTimeout("tahun()", 1000);
+
+    function tahun() {
+      var tanggal = new Date();
+      setTimeout("tahub()", 1000);
+      document.getElementById("jam").innerHTML = "&copy;" + tanggal.getFullYear() + " bangkandar/Mohammad Iskandar";
+    }
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
