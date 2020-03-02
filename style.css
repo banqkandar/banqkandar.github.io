@@ -123,8 +123,6 @@ input:checked+.slider:before {
 .profile:hover {
     cursor: pointer;
     opacity: 1
-    /* cursor: none; */
-
 }
 
 .link-portfolio {
