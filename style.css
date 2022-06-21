@@ -137,8 +137,8 @@ input:checked + .slider:before {
 
 .profile {
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
 }
 
 /* .profile:hover {
