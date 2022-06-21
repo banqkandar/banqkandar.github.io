@@ -142,8 +142,8 @@ input:checked + .slider:before {
 }
 
 .profile:hover {
-    cursor: pointer;
-    border: none;
+  cursor: pointer;
+  border: none;
 }
 
 .link-portfolio {
