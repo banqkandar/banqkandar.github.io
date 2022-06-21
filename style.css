@@ -137,11 +137,8 @@ input:checked + .slider:before {
 
 .profile {
   display: block;
-  width: 200px;
-  height: 200px;
-  transition: 0.3s;
-  border: 1px solid #ddd;
-  padding: 4px;
+  width: 500px;
+  height: 500px;
 }
 
 /* .profile:hover {
