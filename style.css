@@ -191,8 +191,8 @@ p.blockquote-footer {
 @media (max-width: 425px) {
     .profile {
         display: block;
-        width: 81px;
-        height: 81px;
+        width: 100px;
+        height: 100px;
     }
 
     .profile:hover {
