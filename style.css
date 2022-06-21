@@ -137,10 +137,10 @@ input:checked+.slider:before {
 
 .profile {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     transition: 0.3s;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     padding: 4px;
 }
 
