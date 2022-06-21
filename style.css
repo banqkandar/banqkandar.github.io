@@ -144,10 +144,10 @@ input:checked+.slider:before {
     padding: 4px;
 }
 
-.profile:hover {
+/* .profile:hover {
     cursor: pointer;
     border: none;
-}
+} */
 
 .link-portfolio {
     display: flex;
@@ -163,7 +163,7 @@ input:checked+.slider:before {
 }
 
 .tombol img {
-    fill: white;
+    /* fill: rgb(77, 77, 77); */
     /* filter: var(--font-color); */
     width: 24px;
     height: 24px;
