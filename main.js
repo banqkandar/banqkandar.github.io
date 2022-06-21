@@ -20,7 +20,7 @@ const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
 
-    if (currentTheme === "light") {
-      toggleSwitch.checked = true;
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
     }
 }
