@@ -141,10 +141,10 @@ input:checked + .slider:before {
   height: 350px;
 }
 
-/* .profile:hover {
+.profile:hover {
     cursor: pointer;
     border: none;
-} */
+}
 
 .link-portfolio {
   display: flex;
