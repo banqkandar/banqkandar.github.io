@@ -137,14 +137,14 @@ input:checked + .slider:before {
 
 .profile {
   display: block;
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
 }
 
-.profile:hover {
+/* .profile:hover {
   cursor: pointer;
   border: none;
-}
+} */
 
 .link-portfolio {
   display: flex;
@@ -159,7 +159,7 @@ input:checked + .slider:before {
 }
 
 .tombol img {
-  /* fill: rgb(77, 77, 77); */
+  fill: rgb(77, 77, 77);
   /* filter: var(--font-color); */
   width: 24px;
   height: 24px;

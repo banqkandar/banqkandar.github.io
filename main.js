@@ -14,7 +14,7 @@ function switchTheme(e) {
         document.documentElement.setAttribute('data-theme', 'light');
     }    
 }
-toggleSwitch.addEventListener('change', switchTheme, false);
+toggleSwitch.addEventListener('change', switchTheme, true);
 
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 if (currentTheme) {
