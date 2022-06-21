@@ -14,13 +14,13 @@ function switchTheme(e) {
         document.documentElement.setAttribute('data-theme', 'light');
     }    
 }
-toggleSwitch.addEventListener('change', switchTheme, true);
+toggleSwitch.addEventListener('change', switchTheme, false);
 
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
 
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = false;
+    if (currentTheme === "light") {
+      toggleSwitch.checked = true;
     }
 }
